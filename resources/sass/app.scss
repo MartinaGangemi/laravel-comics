@@ -1,1 +1,27 @@
-//
+@import "bootstrap";
+@import'../sass/header.scss';
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+  
+a{
+    text-decoration: none;
+}
+img{
+    height: 100%;
+}
+  
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    }
+
