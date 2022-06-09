@@ -1,0 +1,29 @@
+.bg_image{
+    background-image: url("/img/footer-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.bg-logo{
+    background-image: url("/img/dc-logo-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 550px;
+    background-position: right; 
+}
+h3{
+    color: white;
+    text-transform: uppercase;
+    margin: 1rem 0 1rem;
+}
+.col{
+    margin-right: 3rem;
+}
+ ul{
+     padding-left: 0;
+    li{
+        list-style: none;
+        color:  #959595;
+    }
+}
