@@ -1,4 +1,4 @@
-<header id="site_header">
+<header>
     <div class="visa">
         <div class="container">
             <ul>
@@ -7,8 +7,8 @@
             </ul>
         </div>
     </div>
-    <div class="container">
-        <div class="row">
+    <div class="mt-0 container main_header">
+        <div class="row align-items-center">
             <!-- logo img -->
             <div class="col-4">
                 <img src="{{asset('img/dc-logo.png')}}" alt=""> 
@@ -18,10 +18,10 @@
                 <nav>
                     <ul>
                         <li>
-                            <a  href="#">Characters</a>
+                            <a  href="{{ route('characters')}}">Characters</a>
                         </li>
                         <li>
-                            <a  href="#">Comics</a>
+                            <a  href="{{ route('comics')}}">Comics</a>
                         </li>
                         <li>
                             <a  href="#">Movies</a>

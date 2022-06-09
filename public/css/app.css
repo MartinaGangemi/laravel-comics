@@ -10228,19 +10228,12 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-header {
+.main_header {
   background-color: white;
   padding: 1rem 0 1rem;
 }
-header .row {
-  align-items: center;
-}
-header .col-4 {
-  width: 33.3333333333%;
+.main_header .col-4 {
   height: 80px;
-}
-header .col-8 {
-  width: 66.6666666667%;
 }
 
 .visa {
@@ -10250,6 +10243,7 @@ header .col-8 {
   color: white;
 }
 .visa ul {
+  margin-bottom: 0;
   text-align: right;
 }
 .visa ul li {
@@ -10259,6 +10253,9 @@ header .col-8 {
   margin-left: 2rem;
 }
 
+nav ul {
+  margin-bottom: 0;
+}
 nav ul a {
   color: #1C1C1C;
 }
@@ -10281,6 +10278,67 @@ nav ul li:hover:after, nav ul .active:after {
   width: 100%;
   top: 59px;
   margin: 0 auto;
+}
+
+.jumbo {
+  background-image: url(/img/jumbotron.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+
+main {
+  background-color: #1C1C1C;
+}
+
+.container {
+  position: relative;
+}
+
+button {
+  background-color: #0282F9;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.current {
+  position: absolute;
+  top: -30px;
+}
+
+.load {
+  font-size: 1rem;
+  padding: 1rem 4rem;
+}
+
+.btn-center {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  padding: 1rem 5rem;
+}
+
+.comics-card .box-img {
+  width: 100%;
+}
+.comics-card .title {
+  color: white;
+  text-transform: uppercase;
+  padding: 1rem;
+}
+.comics-card img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  aspect-ratio: 1/1;
+  padding: 1rem;
+  -o-object-position: top;
+     object-position: top;
 }
 
 * {
