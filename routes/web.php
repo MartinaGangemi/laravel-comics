@@ -21,6 +21,5 @@ Route::get('/', function () {
 })->name('comics');
 
 Route::get('/characters', function () {
-    
     return view('characters');
 })->name('characters');
