@@ -10232,8 +10232,8 @@ textarea.form-control-lg {
   background-color: white;
   padding: 1rem 0 1rem;
 }
-.main_header .col-4 {
-  height: 80px;
+.main_header .col-2 {
+  height: 70px;
 }
 
 .visa {
@@ -10270,14 +10270,17 @@ nav ul li {
   cursor: pointer;
 }
 nav ul li:hover:after, nav ul .active:after {
-  border-bottom: solid 4px #0282F9;
+  border-bottom: solid 5px #0282F9;
   content: "";
   position: absolute;
   left: 0;
   right: 0;
   width: 100%;
-  top: 59px;
+  top: 56px;
   margin: 0 auto;
+}
+nav ul .active {
+  color: #0282F9;
 }
 
 .jumbo {
@@ -10344,11 +10347,6 @@ button {
 .bg-blue {
   background-color: #0282F9;
 }
-.bg-blue .row {
-  align-items: center;
-  padding: 3rem;
-  gap: 2rem;
-}
 .bg-blue .col {
   color: white;
   text-transform: uppercase;
@@ -10356,10 +10354,15 @@ button {
   display: flex;
   align-items: center;
   flex-grow: 1;
+  margin-right: 0;
 }
 .bg-blue img {
   height: 50px;
   margin-right: 1rem;
+}
+
+footer {
+  color: #959595;
 }
 
 .bg_image {
@@ -10392,7 +10395,30 @@ ul {
 }
 ul li {
   list-style: none;
-  color: #959595;
+}
+
+.end-footer {
+  background-color: #303030;
+  text-transform: uppercase;
+  color: #0282F9;
+  font-size: 1.2rem;
+}
+.end-footer button {
+  border: solid 2px #0282F9;
+  background-color: transparent;
+  color: white;
+  text-transform: uppercase;
+  padding: 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.end-footer .row {
+  padding: 2rem 0 2rem;
+  align-items: center;
+}
+
+.social {
+  gap: 1rem;
 }
 
 * {

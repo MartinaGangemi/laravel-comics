@@ -1,3 +1,7 @@
+footer{
+    color:  #959595;
+}
+
 .bg_image{
     background-image: url("/img/footer-bg.jpg");
     background-repeat: no-repeat;
@@ -24,6 +28,33 @@ h3{
      padding-left: 0;
     li{
         list-style: none;
-        color:  #959595;
+        
     }
+}
+
+.end-footer{
+    background-color:#303030 ;
+    text-transform: uppercase;
+    color: #0282F9;
+    font-size: 1.2rem;
+
+    button{
+        border: solid 2px #0282F9;
+        background-color: transparent ;
+        color:white;
+        text-transform: uppercase;
+        padding: 1rem;
+        font-size: 1.2rem;
+        cursor: pointer;
+    }
+
+    .row{
+        padding: 2rem 0 2rem;
+        align-items: center;
+    }
+}
+
+
+.social{
+    gap: 1rem;
 }
