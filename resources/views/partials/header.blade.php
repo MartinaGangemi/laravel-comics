@@ -11,7 +11,9 @@
         <div class="row g-0 align-items-center">
             <!-- logo img -->
             <div class="col-2">
-                <img src="{{asset('img/dc-logo.png')}}" alt=""> 
+                <a href="{{ route('home')}}">
+                    <img src="{{asset('img/dc-logo.png')}}" alt=""> 
+                </a>
             </div>
             <!-- nav -->
             <div class="col-10 d-flex justify-content-end">

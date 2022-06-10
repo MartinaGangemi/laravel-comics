@@ -10,7 +10,9 @@
    } 
 }
 
-
+.bg-blue.relative{
+    height: 80px;
+}
 .text-book{
     top: 0;
 }
@@ -26,6 +28,13 @@
     text-transform: uppercase;
     font-size: 0.8rem;
 }
-.bg-blue{
-height: 80px;
+
+
+.th-green{
+    background-color: #55BA59;
+    color: white;
+    border-bottom: solid 1px #357739;
+    .col-3{
+        border-left: solid 1px #357739;
+    }
 }
