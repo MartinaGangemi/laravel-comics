@@ -46,7 +46,7 @@
                 <div class="row ">
                         <div class="col-6">
                                 <h3 class="mb-4">Talent</h3>
-                                <div class="row m-0 py-2 border-top border-secondary">
+                                <div class="row m-0 ps-0 py-2 border-top border-secondary">
                                         <div class="col-3">
                                                 <h6>Art by:</h6>
                                         </div>
@@ -60,8 +60,8 @@
                                                         @endforeach
                                                 </p>
                                         </div>
-                                        <div class="row m-0 py-2 border-top border-bottom border-secondary">
-                                        <div class="col-3">
+                                        <div class="row m-0 ps-0 py-2 border-top border-bottom border-secondary">
+                                        <div class="col-3 ">
                                                 <h6>Written by:</h6>
                                         </div>
                                         

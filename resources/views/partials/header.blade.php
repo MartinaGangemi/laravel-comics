@@ -26,28 +26,28 @@
                             <a  class ="{{Route::currentRouteName()==='comics'?'active':''}}" href="{{ route('comics')}}">Comics</a>
                         </li>
                         <li>
-                            <a  href="#">Movies</a>
+                            <a class ="{{Route::currentRouteName()==='movies'?'active':''}}"href="{{ route('movies')}}">Movies</a>
                         </li>
                         <li>
-                            <a  href="#">Tv</a>
+                            <a  class ="{{Route::currentRouteName()==='tv'?'active':''}}"href="{{ route('tv')}}">Tv</a>
                         </li>
                         <li>
-                            <a  href="#">Games</a>
+                            <a  class ="{{Route::currentRouteName()==='games'?'active':''}}" href="{{ route('games')}}">Games</a>
                         </li>
                         <li>
-                            <a  href="#">Collectibles</a>
+                            <a  class ="{{Route::currentRouteName()==='collectibles'?'active':''}}" href="{{ route('collectibles')}}">Collectibles</a>
                         </li>
                         <li>
-                            <a  href="#">Videos</a>
+                            <a  class ="{{Route::currentRouteName()==='videos'?'active':''}}" href="{{ route('videos')}}">Videos</a>
                         </li>
                         <li>
-                            <a  href="#">Fans</a>
+                            <a class ="{{Route::currentRouteName()==='fans'?'active':''}}" href="{{ route('fans')}}">Fans</a>
                         </li>
                         <li>
-                            <a href="#">News</a>
+                            <a class ="{{Route::currentRouteName()==='news'?'active':''}}" href="{{ route('news')}}">News</a>
                         </li>
                         <li>
-                            <a href="#">Shop</a>
+                            <a class ="{{Route::currentRouteName()==='shop'?'active':''}}" href="{{ route('shop')}}">Shop</a>
                         </li>
                     </ul>
                 </nav>
