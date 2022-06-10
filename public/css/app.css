@@ -10364,6 +10364,11 @@ button {
 footer {
   color: #959595;
 }
+footer h3, footer .h3 {
+  color: white;
+  text-transform: uppercase;
+  margin: 1rem 0 1rem;
+}
 
 .bg_image {
   background-image: url("/img/footer-bg.jpg");
@@ -10378,12 +10383,6 @@ footer {
   background-size: cover;
   background-size: 550px;
   background-position: right;
-}
-
-h3, .h3 {
-  color: white;
-  text-transform: uppercase;
-  margin: 1rem 0 1rem;
 }
 
 .col {
@@ -10419,6 +10418,41 @@ ul li {
 
 .social {
   gap: 1rem;
+}
+
+.comics-img {
+  bottom: -60px;
+  border: solid 1px white;
+  height: 300px;
+  position: relative;
+}
+.comics-img img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.text-book {
+  top: 0;
+}
+
+.text-gallery {
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.text-book, .text-gallery {
+  position: absolute;
+  background-color: #00A9D9;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.bg-blue {
+  height: 80px;
 }
 
 * {

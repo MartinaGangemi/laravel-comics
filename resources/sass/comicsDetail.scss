@@ -1,0 +1,31 @@
+.comics-img{
+    bottom: -60px;
+    border: solid 1px white;
+    height: 300px;
+    position: relative;
+   img{
+       height:100%;
+       width: 100%;
+       object-fit: cover;
+   } 
+}
+
+
+.text-book{
+    top: 0;
+}
+.text-gallery{
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.text-book, .text-gallery{
+    position: absolute;
+    background-color: #00A9D9;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+.bg-blue{
+height: 80px;
+}
